@@ -7,4 +7,4 @@ RUN wget https://downloads.mariadb.com/MariaDB/mariadb_repo_setup && \
     ./mariadb_repo_setup && \
     apt-get install -y galera-arbitrator-4
 
-CMD ["/usr/bin/garb", "start"]
+CMD ["/usr/bin/garbd", "start"]
